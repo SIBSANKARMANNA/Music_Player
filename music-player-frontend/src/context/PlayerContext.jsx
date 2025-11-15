@@ -14,7 +14,7 @@ export function PlayerProvider({ children }) {
     setCurrentSong(song);
     setQueue(songList);
     const audio = audioRef.current;
-    audio.src = song.filePath ? `http://localhost:5000/${song.filePath}` : song.url;
+    audio.src = song.filePath ? `https://music-player-nnqm.onrender.com/${song.filePath}` : song.url;
     audio.play();
     setIsPlaying(true);
   };

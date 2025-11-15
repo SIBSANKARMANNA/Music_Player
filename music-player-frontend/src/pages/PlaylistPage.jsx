@@ -103,7 +103,7 @@ export default function PlaylistPage() {
                           onClick={() => handleRemove(pl._id, song._id)}
                           className="text-red-500 hover:scale-110 transition-transform"
                         >
-                          ❌
+                          Remove
                         </button>
                       </div>
                     </li>
